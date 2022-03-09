@@ -1,0 +1,137 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   line-height: 1.6;
+   color: #333;
+}
+.header-inner{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+.arButtons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Положение на экране*/
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 40;
+   
+  }
+
+  .answerbutton{
+      /* Отступ */
+    margin: 0 20px; 
+    padding: 25px 50px 25px 50px;
+    border-radius: 4px;
+    border: none;
+    background: green;
+    color: black;
+    width: 4em;
+    height: 2em;
+  }
+
+/* Button */
+.button {
+    background: #ff7300;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    /* Размер кнопки */
+    padding: 25px 50px 25px 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    
+  
+  }
+  /* Button Highlited */
+  .button:hover {
+    background-color: black;
+    color: white;
+  }
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Intro */
+.intro{
+    width: 100%;
+}
+.registrationContainer{
+    width: 100%;
+}
+/* Border to quest title */
+.bordered-box{
+    border-width:1;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo:hover {
+    opacity: 0.6;
+  }
+  .phone {
+    color: #949494;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .email {
+    display: flex;
+    align-items: center;
+    color: #8b8b8b;
+    font-size: 13px;
+  }
+  .email-text {
+    text-decoration: underline;
+    margin-left: 6px;
+  }
+
+  .registration{
+    background: #fcb4f0;
+    color: #fff;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    /* Размер Поля */
+    padding: 70px 50px 70px 50px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .header {
+    width: 100%;
+    position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+  }
+  .nav{
+      font-size: 14px;
+   
+  }
+  .nav_link{
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 1px;
+      color:black;
+   text-decoration: none;
+   transition: color .2s linear;
+  }
+  .nav_link:hover {
+    color: red;
+  }
+  
